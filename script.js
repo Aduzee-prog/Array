@@ -83,8 +83,8 @@ function display() {
                 <td>${i + 1}</td>
                 <td>${allStudent[i]}</td>
                 <td>
-                    <button onclick="edit(${i})" class="btn btn-primary col-2 col-sm-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Edit</button>
-                    <button onclick="deleteStudent(${i})" class="btn btn-danger col-2 col-sm-3">Delete</button>
+                    <button onclick="edit(${i})" class="btn btn-primary col-lg-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Edit</button>
+                    <button onclick="deleteStudent(${i})" class="btn btn-danger col-lg-3">Delete</button>
                 </td>
             </tr>
             `
